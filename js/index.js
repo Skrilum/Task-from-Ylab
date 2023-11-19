@@ -39,7 +39,10 @@ else if (password.value.length === 0) {
 // email = atuny0@sohu.com password = 9uQFF1Lh
 if (email.value == users[0].email && password.value == users[0].password ){
   alert('Вы вошли в систему!')
-}  
+} 
+else {
+  alert('Неправильная почта или пароль!')
+}
   email.value = ''
   password.value = ''
 }
