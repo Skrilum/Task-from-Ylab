@@ -35,14 +35,11 @@ logInbtn.onclick = function () {
 else if (password.value.length === 0) {
   return
 }
-for (let i = 0; i < users.length - 1; i++){
-  // while (i != users.length){
-  //   usersemail !== users.email)
-  // }
-}
-  console.log(email.value)
-  console.log(password.value)
-  
+
+// email = atuny0@sohu.com password = 9uQFF1Lh
+if (email.value == users[0].email && password.value == users[0].password ){
+  alert('Вы вошли в систему!')
+}  
   email.value = ''
   password.value = ''
 }
