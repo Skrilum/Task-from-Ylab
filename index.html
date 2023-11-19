@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons'
+    rel='stylesheet prefetch' 
+  />
+  <link 
+    href="css/style.css"
+    rel="stylesheet" 
+  />
+  <title>Login Form - Modal</title>
+  <script src="js/index.js" defer></script> 
+</head>
+
+<body>
+  
+<!-- Form-->
+<div class="form" id="form">
+  <div class="form-panel one">
+    <div class="form-header">
+      <h1>Account Login</h1>
+    </div>
+    <div class="form-content">
+      <form>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" autocomplete="on" required="required"/>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" autocomplete="on" required="required"/>
+        </div>
+        <div class="form-group">
+          <label class="form-remember">
+            <input type="checkbox"/>Remember Me
+          </label><a class="form-recovery" href="#">Forgot Password?</a>
+        </div>
+        <div class="form-group">
+          <button type="submit" id="logIn">Log In</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
